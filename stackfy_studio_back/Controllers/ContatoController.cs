@@ -14,7 +14,6 @@ namespace stackfy_studio_back.Controllers
             {
                 return BadRequest(new { mensagem = "Preencha todos os campos obrigatórios corretamente!" });
             }
-            // Enviar e-mail
             return Ok(new { mensagem = $"Obrigado, {contato.Nome}! Recebemos a sua mensagem." });
         }
     }
