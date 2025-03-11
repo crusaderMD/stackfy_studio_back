@@ -1,0 +1,6 @@
+@stackfy_studio_back_HostAddress = http://localhost:5183
+
+GET {{stackfy_studio_back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
